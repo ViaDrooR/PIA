@@ -93,7 +93,7 @@ mediana(velocidad, clave_vel)
 
 
 #Creación de gráficas
-    #---Edité esto para que sea más automático la extracción de datos y se vea más chido---
+    #---Edité esto para que sea más automático la extracción de datos---
 velocidad_por_mes={}
 for ast in lista_asteroides:
     fecha=ast["Fecha"]           #ejemplo: "2024-03-21"
@@ -120,7 +120,7 @@ plt.ylabel("Velocidad (m/s)")
 plt.xlabel("Meses")
 
 #Creación de gráfica plot
-    #---También este xd---
+    #---También este---
 tamanio_por_mes={}
 for ast in lista_asteroides:
     fecha=ast["Fecha"]           
